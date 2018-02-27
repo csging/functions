@@ -14,7 +14,15 @@ module.exports = {
 
     assert_false: function(actual, message) {
         this.assert(false, actual, message)
+    },
+
+    again: function() {
+        console.log('\n "do or do not, there is no try" -yoda\n')
+    },
+    done: function() {
+        console.log('\n"much to learn, you still have\n')
     }
+
 
 
 }
